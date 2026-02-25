@@ -1,0 +1,128 @@
+EMPLOYEE ONBOARDING PROCEDURE
+TelecomCo – SOP Document
+Document ID: SOP-HR-2025-003
+Effective Date: February 1, 2025
+Version: 2.5
+Classification: Internal
+
+1. PURPOSE
+This SOP outlines the standard procedure for onboarding new employees at
+TelecomCo. It ensures every new hire receives consistent access, training,
+and orientation regardless of department or location.
+
+2. SCOPE
+Applies to all new hires including:
+- Full-time employees
+- Part-time employees
+- Contractors (with modified steps as noted)
+- Interns
+
+3. PRE-ARRIVAL (HR – 5 Business Days Before Start Date)
+
+Step 1: System Account Provisioning
+- HR submits the New Hire Request Form in ServiceNow.
+- IT creates accounts: Active Directory, email (firstname.lastname@telecomco.com),
+  Microsoft 365, VPN access.
+- Badge access provisioned for assigned building/floor.
+- For contractors: Access limited to project-specific systems only.
+
+Step 2: Equipment Preparation
+- IT prepares laptop (Windows or Mac per role requirements).
+- Standard software image includes: Windows 11 / macOS, Microsoft 365,
+  Teams, VPN client, endpoint security agent.
+- Headset and monitors allocated based on role (customer-facing roles get
+  dual monitors + certified headset).
+- Equipment shipped to remote employees 3 days before start date.
+
+Step 3: Workspace Setup
+- Facilities assigns desk/office space.
+- Manager confirms team seating arrangement.
+- Welcome packet placed at desk: ID badge, parking pass, company swag.
+
+4. DAY ONE ORIENTATION
+
+Step 4: HR Welcome Session (9:00 AM – 11:00 AM)
+- Company overview and mission
+- Benefits enrollment walkthrough (medical, dental, vision, 401k)
+- Review of key policies:
+  - Acceptable Use Policy
+  - Customer Data Privacy Policy
+  - Code of Conduct
+  - Anti-Harassment Policy
+- Sign acknowledgment forms in DocuSign
+
+Step 5: IT Setup Session (11:00 AM – 12:00 PM)
+- Laptop configuration verification
+- Password creation and MFA enrollment (Microsoft Authenticator)
+- VPN setup and test
+- Overview of IT support: helpdesk@telecomco.com | ext. 5555
+
+Step 6: Manager Introduction (1:00 PM – 3:00 PM)
+- Meet the team
+- Review 30/60/90 day plan
+- Assign onboarding buddy (peer mentor for first 90 days)
+- Tour of office / virtual tour for remote employees
+
+Step 7: Systems Training (3:00 PM – 5:00 PM)
+- Access verification for all role-specific systems
+- Quick-start training for primary tools (CRM, ticketing, etc.)
+- Schedule follow-up training sessions in LMS
+
+5. FIRST WEEK (Days 2-5)
+
+Step 8: Mandatory Training (via LMS)
+- Information Security Awareness (2 hours)
+- Data Privacy & CPNI Training (1.5 hours)
+- Anti-Bribery and Ethics (1 hour)
+- Workplace Safety (30 minutes)
+- All training must be completed within first 7 days.
+
+Step 9: Department-Specific Onboarding
+- Each department has supplementary onboarding:
+  - Network Operations: NOC tools training, shift schedule review
+  - Customer Care: Call handling procedures, escalation matrix
+  - Sales: Product catalog training, quoting system access
+  - Engineering: Lab access, code repository access (GitHub Enterprise)
+
+Step 10: HR Check-In
+- HR schedules a 30-minute check-in at end of first week.
+- Address any access issues, questions, or concerns.
+- Confirm benefits enrollment is complete.
+
+6. FIRST 30 DAYS
+
+Step 11: Performance Goal Setting
+- Manager and employee collaborate on 30/60/90 day goals.
+- Goals documented in the Performance Management System (Workday).
+- At least one goal must be training/certification related.
+
+Step 12: Compliance Verification
+- HR verifies all mandatory training is complete.
+- Manager confirms system access is appropriate (no over-provisioning).
+- Employee completes the Onboarding Feedback Survey.
+
+7. 90-DAY REVIEW
+
+Step 13: Probationary Review
+- Manager conducts formal 90-day performance review.
+- Review covers: job performance, cultural fit, training completion.
+- Decision: Confirm employment, extend probation, or terminate.
+- Results documented in Workday.
+
+Step 14: Onboarding Closure
+- HR closes the onboarding ticket in ServiceNow.
+- Onboarding buddy assignment concludes.
+- Employee added to regular performance review cycle.
+
+8. OFFBOARDING NOTE
+When an employee leaves TelecomCo:
+- Manager submits Termination Request in ServiceNow.
+- IT disables all accounts within 4 hours of departure.
+- Badge access revoked same day.
+- Equipment return coordinated by IT (remote employees: prepaid shipping label).
+- Exit interview conducted by HR within 5 business days.
+
+Document Owner: VP of Human Resources
+Approved By: CHRO
+Last Reviewed: January 20, 2025
+Next Review: July 20, 2025

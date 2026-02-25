@@ -1,0 +1,73 @@
+ACCEPTABLE USE POLICY (AUP)
+TelecomCo – Internal Policy Document
+Effective Date: January 1, 2025
+Version: 3.2
+Classification: Internal
+
+1. PURPOSE
+This Acceptable Use Policy defines the standards for responsible use of TelecomCo's
+network infrastructure, corporate devices, and digital services. All employees,
+contractors, and third-party vendors with access to company resources must comply.
+
+2. SCOPE
+This policy applies to:
+- All employees (full-time, part-time, temporary)
+- Contractors and consultants with network access
+- Third-party vendors using TelecomCo systems
+- All company-owned or managed devices and networks
+
+3. PERMITTED USE
+3.1 Employees may use company devices and network access for:
+    - Performing job-related tasks and communications
+    - Accessing approved cloud services (Microsoft 365, Salesforce, ServiceNow)
+    - Limited personal use during non-work hours, provided it does not violate this policy
+
+3.2 Approved communication channels include:
+    - Corporate email (Outlook)
+    - Microsoft Teams for internal collaboration
+    - Approved CRM systems for customer interactions
+
+4. PROHIBITED ACTIVITIES
+The following activities are strictly prohibited on TelecomCo networks and devices:
+4.1 Unauthorized access to customer data or billing systems
+4.2 Installing unapproved software or browser extensions
+4.3 Sharing login credentials with any person, including colleagues
+4.4 Using company resources for personal commercial ventures
+4.5 Downloading or distributing copyrighted material without authorization
+4.6 Circumventing network security controls (VPN bypasses, proxy tools)
+4.7 Connecting unauthorized personal devices to the corporate network
+4.8 Sending bulk unsolicited communications (spam) via company systems
+
+5. MONITORING AND ENFORCEMENT
+5.1 TelecomCo reserves the right to monitor all network traffic, email
+    communications, and device activity on company-owned resources.
+5.2 Monitoring is conducted in compliance with applicable privacy laws.
+5.3 Violations will be investigated by the Information Security team.
+
+6. CONSEQUENCES OF VIOLATION
+6.1 First Offense: Written warning and mandatory policy training
+6.2 Second Offense: Suspension of network access (24-72 hours) and manager notification
+6.3 Third Offense: Termination review by HR and potential legal action
+6.4 Severe Violations: Immediate suspension and investigation; may result in
+    termination and referral to law enforcement.
+
+7. BYOD (BRING YOUR OWN DEVICE) GUIDELINES
+7.1 Personal devices may only connect to the "TelecomCo-Guest" Wi-Fi network.
+7.2 To access corporate email on a personal device, employees must:
+    - Enroll in Mobile Device Management (MDM)
+    - Enable device encryption
+    - Set a minimum 6-digit PIN or biometric lock
+7.3 IT reserves the right to remotely wipe corporate data from personal devices
+    if the device is lost, stolen, or the employee is terminated.
+
+8. REPORTING
+Employees who suspect a policy violation must report it to:
+- Information Security: infosec@telecomco.com
+- Ethics Hotline: 1-800-555-ETHIC (anonymous)
+- Direct supervisor (for non-urgent matters)
+
+Reports must be filed within 24 hours of discovering the violation.
+
+Document Owner: Chief Information Security Officer (CISO)
+Last Reviewed: December 15, 2024
+Next Review: June 15, 2025
