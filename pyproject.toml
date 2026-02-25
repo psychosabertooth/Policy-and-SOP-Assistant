@@ -1,0 +1,25 @@
+[project]
+name = "sop-assistant"
+version = "1.0.0"
+description = "AI-powered Policy & SOP Assistant for telecom enterprises"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.30.0",
+    "langchain>=0.1.0",
+    "langchain-community>=0.0.10",
+    "langchain-openai>=0.0.5",
+    "langchain-huggingface>=0.1.0",
+    "sentence-transformers>=2.2.2",
+    "langchain-chroma>=0.1.0",
+    "chromadb>=0.4.22",
+    "pypdf>=3.17.0",
+    "beautifulsoup4>=4.12.0",
+    "requests>=2.31.0",
+    "langchain-text-splitters>=0.0.1",
+    "tiktoken>=0.5.0",
+    "langchain-ollama>=0.0.1",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+package = false
