@@ -1,0 +1,153 @@
+NETWORK OUTAGE RESPONSE – STANDARD OPERATING PROCEDURE
+TelecomCo – SOP Document
+Document ID: SOP-NOC-2025-001
+Effective Date: January 15, 2025
+Version: 4.0
+Classification: Internal
+
+1. PURPOSE
+This SOP provides step-by-step procedures for Network Operations Center (NOC)
+engineers and field technicians to follow when a network outage is detected or
+reported. It ensures consistent, rapid response to minimize service disruption.
+
+2. SCOPE
+Applies to all outages affecting:
+- Wireless network (4G LTE / 5G)
+- Fiber and DSL broadband services
+- Enterprise and wholesale circuits
+- Core network infrastructure (routers, switches, aggregation points)
+
+3. SEVERITY CLASSIFICATION
+
+Severity 1 (Critical):
+- Complete service loss affecting >10,000 customers
+- Core network element failure
+- Multiple cell sites down in a metro area
+- Response time: Immediate (within 15 minutes)
+- Resolution target: 4 hours
+
+Severity 2 (Major):
+- Partial service degradation affecting 1,000-10,000 customers
+- Single aggregation node failure
+- Significant packet loss or latency (>200ms)
+- Response time: Within 30 minutes
+- Resolution target: 8 hours
+
+Severity 3 (Minor):
+- Localized issue affecting <1,000 customers
+- Single cell site outage
+- Non-critical system alert
+- Response time: Within 2 hours
+- Resolution target: 24 hours
+
+Severity 4 (Informational):
+- Planned maintenance window
+- Minor performance anomaly
+- Proactive alert with no customer impact
+- Response time: Next business day
+- Resolution target: As scheduled
+
+4. DETECTION AND INITIAL RESPONSE
+
+Step 1: Alert Triage
+- NOC monitoring systems (SolarWinds, Netcool) generate alerts automatically.
+- All alerts appear on the NOC dashboard and are logged in ServiceNow.
+- On-call engineer reviews alert within the response time for its severity.
+
+Step 2: Initial Assessment
+- Verify the alert is genuine (not a false positive from monitoring flap).
+- Check for related alerts that might indicate a larger issue.
+- Confirm customer impact using the Customer Impact Dashboard.
+- Document initial findings in the ServiceNow incident ticket.
+
+Step 3: Classify and Escalate
+- Assign severity level based on criteria in Section 3.
+- For Severity 1: Immediately notify the NOC Manager and initiate a bridge call.
+- For Severity 2: Notify the NOC Manager within 15 minutes.
+- For Severity 3-4: Follow standard ticket workflow.
+
+5. TROUBLESHOOTING PROCEDURE
+
+Step 4: Isolate the Problem
+- Determine if the issue is in the access, aggregation, or core layer.
+- Check for recent changes in the Change Management system (was a change
+  deployed in the last 24 hours that might have caused this?).
+- Verify power status, fiber connectivity, and hardware health.
+
+Step 5: Apply Known Fix or Workaround
+- Search the Known Error Database (KEDB) for matching issues.
+- If a known fix exists, apply it and monitor for 15 minutes.
+- If no known fix, proceed to Step 6.
+
+Step 6: Engage Vendor Support (if needed)
+- If the issue involves vendor equipment (Ericsson, Nokia, Cisco):
+  - Open a vendor support case with severity matching our classification.
+  - Provide logs, alarms, and topology diagrams.
+  - Vendor SLA: Severity 1 response within 30 minutes.
+
+6. COMMUNICATION PROTOCOL
+
+Internal Communication:
+- Severity 1: Status updates every 30 minutes on the bridge call.
+- Severity 2: Status updates every 60 minutes via email to stakeholders.
+- Severity 3-4: Updates in the ServiceNow ticket.
+
+Customer Communication:
+- Customer Care team is notified via the "Mass Outage" alert in CRM.
+- Automated outage notification sent to affected customers via SMS/app push.
+- Customer-facing outage page updated at status.telecomco.com.
+- Social media team prepared with holding statements.
+
+Executive Communication:
+- Severity 1: VP of Network Operations notified within 30 minutes.
+- CTO briefed within 1 hour for Severity 1 events.
+- Board notification required for outages exceeding 8 hours or affecting >1M customers.
+
+7. RESOLUTION AND RECOVERY
+
+Step 7: Implement Fix
+- Apply the resolution (configuration change, hardware replacement, reroute).
+- Monitor key metrics for 30 minutes post-fix:
+  - Packet loss < 0.1%
+  - Latency within baseline ± 10%
+  - All monitoring alarms cleared
+
+Step 8: Service Verification
+- Conduct end-to-end testing from affected area.
+- Confirm with Customer Care that complaint volume has returned to baseline.
+- Get NOC Manager sign-off before closing the bridge call.
+
+8. POST-INCIDENT REVIEW
+
+Step 9: Root Cause Analysis (RCA)
+- RCA must be completed within 5 business days for Severity 1-2.
+- RCA document must include:
+  - Timeline of events
+  - Root cause determination
+  - Contributing factors
+  - Corrective actions with owners and due dates
+- RCA is reviewed in the weekly Change Advisory Board (CAB) meeting.
+
+Step 10: Lessons Learned
+- Update the KEDB with new resolution procedures.
+- If a process gap is identified, update this SOP.
+- Share findings in the monthly NOC All-Hands meeting.
+
+9. TOOLS AND SYSTEMS
+- Monitoring: SolarWinds NPM, IBM Netcool, Grafana dashboards
+- Ticketing: ServiceNow (ITSM module)
+- Communication: Microsoft Teams (NOC Bridge channel), PagerDuty
+- Documentation: Confluence (Network Documentation space)
+- Change Management: ServiceNow Change module
+
+10. ROLES AND RESPONSIBILITIES
+- NOC Engineer (Tier 1): Alert triage, initial assessment, known fixes
+- NOC Engineer (Tier 2): Advanced troubleshooting, vendor coordination
+- NOC Manager: Escalation management, executive communication
+- Field Technician: On-site hardware assessment and replacement
+- Customer Care: Customer communication and complaint management
+
+Document Owner: VP of Network Operations
+Approved By: CTO
+Last Reviewed: January 10, 2025
+Next Review: July 10, 2025

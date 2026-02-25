@@ -1,0 +1,111 @@
+CUSTOMER DATA HANDLING & PRIVACY POLICY
+TelecomCo – Internal Policy Document
+Effective Date: March 1, 2025
+Version: 2.1
+Classification: Confidential
+
+1. PURPOSE
+This policy establishes mandatory requirements for the collection, storage,
+processing, and disposal of customer data across all TelecomCo operations.
+It ensures compliance with federal regulations (CCPA, state privacy laws)
+and industry standards (PCI-DSS for payment data).
+
+2. DATA CLASSIFICATION
+TelecomCo classifies customer data into the following categories:
+
+2.1 Personally Identifiable Information (PII)
+    - Full name, date of birth, Social Security Number
+    - Home address, email address, phone number
+    - Government-issued ID numbers
+
+2.2 Customer Proprietary Network Information (CPNI)
+    - Call detail records (numbers called, duration, time)
+    - Service usage data and patterns
+    - Billing amounts and payment history
+
+2.3 Payment Card Information (PCI)
+    - Credit/debit card numbers
+    - Expiration dates, CVV codes
+    - Cardholder name and billing address
+
+2.4 Account Information
+    - Account numbers and PINs
+    - Service plans and features
+    - Device information (IMEI, serial numbers)
+
+3. ACCESS CONTROLS
+3.1 Access to customer data is granted on a need-to-know basis only.
+3.2 All access requests must be approved by the employee's manager AND
+    the Data Privacy Officer (DPO).
+3.3 Access is provisioned through role-based access control (RBAC) in
+    the Identity Management System (IMS).
+3.4 Customer-facing agents may access only the data required for the
+    specific interaction (e.g., billing inquiry, service change).
+3.5 Access to CPNI requires additional CPNI training certification,
+    renewed annually.
+
+4. DATA HANDLING PROCEDURES
+4.1 Collection:
+    - Collect only the minimum data necessary for the business purpose.
+    - Inform customers about data collection at the point of collection.
+    - Obtain explicit consent for marketing use of customer data.
+
+4.2 Storage:
+    - All customer data must be stored in approved systems only
+      (Oracle CRM, Salesforce, approved databases).
+    - Data must NOT be stored in personal drives, email attachments,
+      spreadsheets, or unauthorized cloud services.
+    - Encryption at rest is mandatory (AES-256 minimum).
+
+4.3 Transmission:
+    - Customer data must be transmitted over encrypted channels only (TLS 1.2+).
+    - Email containing PII must be sent via the secure email gateway.
+    - Never include full SSN, card numbers, or account PINs in email or chat.
+
+4.4 Retention:
+    - Active customer data: Retained for duration of service + 3 years.
+    - Billing records: 7 years (per FCC requirements).
+    - Call detail records: 18 months (per legal retention schedule).
+    - Marketing consent records: Duration of consent + 2 years.
+
+4.5 Disposal:
+    - Electronic data: Cryptographic erasure or DOD 5220.22-M wipe.
+    - Physical documents: Cross-cut shredding (DIN Level P-4 minimum).
+    - Disposal must be logged in the Data Disposal Register.
+
+5. CUSTOMER RIGHTS
+5.1 Customers have the right to:
+    - Request access to their personal data (response within 30 days).
+    - Request deletion of their data ("Right to Delete").
+    - Opt out of data sales (TelecomCo does NOT sell customer data).
+    - Receive a copy of their data in portable format.
+
+5.2 Customer requests must be processed through the Privacy Request Portal.
+5.3 Identity verification is required before fulfilling any data request.
+
+6. BREACH NOTIFICATION
+6.1 Any suspected data breach must be reported to the Security Operations
+    Center (SOC) within 1 hour of discovery.
+6.2 SOC contact: soc@telecomco.com | 1-800-555-SECU (24/7)
+6.3 The Incident Response Team will assess the breach within 4 hours.
+6.4 If customer data is confirmed compromised:
+    - Affected customers notified within 72 hours
+    - State attorneys general notified as required by state law
+    - FCC notified within 30 days for breaches affecting 5,000+ customers
+
+7. TRAINING REQUIREMENTS
+7.1 All employees: Annual Data Privacy Awareness training.
+7.2 Customer-facing staff: Quarterly CPNI handling refresher.
+7.3 IT and Data teams: Annual PCI-DSS compliance training.
+7.4 Training completion is tracked in the Learning Management System (LMS).
+
+8. PENALTIES FOR NON-COMPLIANCE
+8.1 Unintentional violation: Retraining + documented warning.
+8.2 Negligent handling: Suspension of data access + performance review.
+8.3 Intentional misuse: Termination + potential criminal referral.
+8.4 Regulatory fines resulting from employee negligence may be reflected
+    in performance evaluations.
+
+Document Owner: Data Privacy Officer (DPO)
+Last Reviewed: February 1, 2025
+Next Review: August 1, 2025
